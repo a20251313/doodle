@@ -71,43 +71,6 @@ static int connetToHost(int socket_file, char *serverIP, int32_t port)
     NSLog(@"connect_result:%d", connect_result);
 #endif
     
-    /*
-     fd_set          fdwrite;
-     struct timeval  tvSelect;
-     
-     FD_ZERO(&fdwrite);
-     FD_SET(socket_file, &fdwrite);
-     tvSelect.tv_sec = 2;
-     tvSelect.tv_usec = 0;
-     int retval = select(socket_file + 1,NULL, &fdwrite, NULL, &tvSelect);
-     if(retval < 0)
-     {
-     if ( errno == EINTR )
-     {
-     NSLog(@"select error");
-     }
-     else
-     {
-     NSLog(@"error");
-     close(socket_file);
-     }
-     }
-     else if(retval == 0)
-     {
-     NSLog(@"select timeout........");
-     }
-     else if(retval > 0)
-     {
-     ret = YES;
-     }
-     */
-    /*
-     if (connect_result) {
-     flags = fcntl(socket_file, F_GETFL,0);
-     flags &= ~ O_NONBLOCK;
-     fcntl(socket_file,F_SETFL, flags);
-     }
-     */
     
     struct sigaction sa;
     sa.sa_handler = SIG_IGN;
