@@ -86,15 +86,6 @@
 		F5DB34431637E979003D5BB7 /* RJFDraftTbControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DB34411637E979003D5BB7 /* RJFDraftTbControlViewController.m */; };
 		F5DB34441637E979003D5BB7 /* RJFDraftTbControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5DB34421637E979003D5BB7 /* RJFDraftTbControlViewController.xib */; };
 		F5DB344A1637EE29003D5BB7 /* rubbsh.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DB34491637EE29003D5BB7 /* rubbsh.png */; };
-		F5DB344E1637EEA8003D5BB7 /* RJFRecommandViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5DB344C1637EEA7003D5BB7 /* RJFRecommandViewController.mm */; };
-		F5DB344F1637EEA8003D5BB7 /* RJFRecommandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5DB344D1637EEA7003D5BB7 /* RJFRecommandViewController.xib */; };
-		F5DB34541637EEDB003D5BB7 /* RJFAppDownload.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5DB34511637EEDA003D5BB7 /* RJFAppDownload.mm */; };
-		F5DB34551637EEDB003D5BB7 /* RjfDownPicImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DB34531637EEDB003D5BB7 /* RjfDownPicImageView.m */; };
-		F5DB34581637EEFF003D5BB7 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DB34571637EEFF003D5BB7 /* AsyncSocket.m */; };
-		F5DB345B1637EF30003D5BB7 /* RJFUpAndDown.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DB345A1637EF30003D5BB7 /* RJFUpAndDown.m */; };
-		F5DB345F1637EF7C003D5BB7 /* BasisZipAndUnzip.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DB345D1637EF7B003D5BB7 /* BasisZipAndUnzip.m */; };
-		F5DB34C61637F34F003D5BB7 /* libappcenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DB34C41637F34F003D5BB7 /* libappcenter.a */; };
-		F5DB34C71637F34F003D5BB7 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DB34C51637F34F003D5BB7 /* libcrypto.a */; };
 		F5DB35231637F5DA003D5BB7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DB35221637F5DA003D5BB7 /* CFNetwork.framework */; };
 		F5DB35291637FD3E003D5BB7 /* butten_green_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DB35271637FD3D003D5BB7 /* butten_green_pressed.png */; };
 		F5DB352A1637FD3E003D5BB7 /* button_green.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DB35281637FD3D003D5BB7 /* button_green.png */; };
@@ -112,22 +103,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F568C7161639557E00619E9A /* appcenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appcenter.h; sourceTree = "<group>"; };
-		F568C7171639557E00619E9A /* applicationdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = applicationdef.h; sourceTree = "<group>"; };
-		F568C7181639557E00619E9A /* clientplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clientplatform.h; sourceTree = "<group>"; };
-		F568C7191639557E00619E9A /* companydef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = companydef.h; sourceTree = "<group>"; };
-		F568C71A1639557E00619E9A /* easypacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easypacket.h; sourceTree = "<group>"; };
-		F568C71B1639557E00619E9A /* filetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filetype.h; sourceTree = "<group>"; };
-		F568C71C1639557E00619E9A /* languagedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = languagedef.h; sourceTree = "<group>"; };
-		F568C71D1639557E00619E9A /* mersenne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mersenne.h; sourceTree = "<group>"; };
-		F568C71E1639557E00619E9A /* mychallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mychallenge.h; sourceTree = "<group>"; };
-		F568C71F1639557E00619E9A /* mychallengekey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mychallengekey.h; sourceTree = "<group>"; };
-		F568C7201639557E00619E9A /* myencryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myencryptor.h; sourceTree = "<group>"; };
-		F568C7211639557E00619E9A /* mykeymanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mykeymanager.h; sourceTree = "<group>"; };
-		F568C7221639557E00619E9A /* mylog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mylog.h; sourceTree = "<group>"; };
-		F568C7231639557E00619E9A /* myrandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myrandom.h; sourceTree = "<group>"; };
-		F568C7241639557E00619E9A /* packethandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = packethandler.h; sourceTree = "<group>"; };
-		F568C7251639557E00619E9A /* sdstatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sdstatus.h; sourceTree = "<group>"; };
 		F59213AA163790CC00B0E9F0 /* Doodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59213AE163790CC00B0E9F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F59213B0163790CC00B0E9F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -218,94 +193,6 @@
 		F5DB34411637E979003D5BB7 /* RJFDraftTbControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJFDraftTbControlViewController.m; sourceTree = "<group>"; };
 		F5DB34421637E979003D5BB7 /* RJFDraftTbControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RJFDraftTbControlViewController.xib; sourceTree = "<group>"; };
 		F5DB34491637EE29003D5BB7 /* rubbsh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rubbsh.png; sourceTree = "<group>"; };
-		F5DB344B1637EEA7003D5BB7 /* RJFRecommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJFRecommandViewController.h; sourceTree = "<group>"; };
-		F5DB344C1637EEA7003D5BB7 /* RJFRecommandViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RJFRecommandViewController.mm; sourceTree = "<group>"; };
-		F5DB344D1637EEA7003D5BB7 /* RJFRecommandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RJFRecommandViewController.xib; sourceTree = "<group>"; };
-		F5DB34501637EEDA003D5BB7 /* RJFAppDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJFAppDownload.h; sourceTree = "<group>"; };
-		F5DB34511637EEDA003D5BB7 /* RJFAppDownload.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RJFAppDownload.mm; sourceTree = "<group>"; };
-		F5DB34521637EEDB003D5BB7 /* RjfDownPicImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RjfDownPicImageView.h; sourceTree = "<group>"; };
-		F5DB34531637EEDB003D5BB7 /* RjfDownPicImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RjfDownPicImageView.m; sourceTree = "<group>"; };
-		F5DB34561637EEFE003D5BB7 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
-		F5DB34571637EEFF003D5BB7 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
-		F5DB34591637EF2F003D5BB7 /* RJFUpAndDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJFUpAndDown.h; sourceTree = "<group>"; };
-		F5DB345A1637EF30003D5BB7 /* RJFUpAndDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJFUpAndDown.m; sourceTree = "<group>"; };
-		F5DB345C1637EF7B003D5BB7 /* BasisZipAndUnzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasisZipAndUnzip.h; sourceTree = "<group>"; };
-		F5DB345D1637EF7B003D5BB7 /* BasisZipAndUnzip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasisZipAndUnzip.m; sourceTree = "<group>"; };
-		F5DB345E1637EF7C003D5BB7 /* structandenumForProtrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structandenumForProtrol.h; sourceTree = "<group>"; };
-		F5DB34C41637F34F003D5BB7 /* libappcenter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libappcenter.a; sourceTree = "<group>"; };
-		F5DB34C51637F34F003D5BB7 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		F5DB34DA1637F361003D5BB7 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
-		F5DB34DB1637F361003D5BB7 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
-		F5DB34DC1637F361003D5BB7 /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
-		F5DB34DD1637F361003D5BB7 /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
-		F5DB34DE1637F361003D5BB7 /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
-		F5DB34DF1637F361003D5BB7 /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
-		F5DB34E01637F361003D5BB7 /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
-		F5DB34E11637F361003D5BB7 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
-		F5DB34E21637F361003D5BB7 /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
-		F5DB34E31637F361003D5BB7 /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
-		F5DB34E41637F361003D5BB7 /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
-		F5DB34E51637F361003D5BB7 /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
-		F5DB34E61637F361003D5BB7 /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
-		F5DB34E71637F361003D5BB7 /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
-		F5DB34E81637F361003D5BB7 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
-		F5DB34E91637F361003D5BB7 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
-		F5DB34EA1637F361003D5BB7 /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
-		F5DB34EB1637F361003D5BB7 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
-		F5DB34EC1637F361003D5BB7 /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
-		F5DB34ED1637F361003D5BB7 /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
-		F5DB34EE1637F361003D5BB7 /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
-		F5DB34EF1637F361003D5BB7 /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
-		F5DB34F01637F361003D5BB7 /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
-		F5DB34F11637F361003D5BB7 /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
-		F5DB34F21637F361003D5BB7 /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
-		F5DB34F31637F361003D5BB7 /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
-		F5DB34F41637F361003D5BB7 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
-		F5DB34F51637F361003D5BB7 /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
-		F5DB34F61637F361003D5BB7 /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
-		F5DB34F71637F361003D5BB7 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
-		F5DB34F81637F361003D5BB7 /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
-		F5DB34F91637F361003D5BB7 /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
-		F5DB34FA1637F361003D5BB7 /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
-		F5DB34FB1637F361003D5BB7 /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
-		F5DB34FC1637F361003D5BB7 /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
-		F5DB34FD1637F361003D5BB7 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
-		F5DB34FE1637F361003D5BB7 /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
-		F5DB34FF1637F361003D5BB7 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
-		F5DB35001637F361003D5BB7 /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
-		F5DB35011637F361003D5BB7 /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
-		F5DB35021637F361003D5BB7 /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
-		F5DB35031637F361003D5BB7 /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
-		F5DB35041637F361003D5BB7 /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
-		F5DB35051637F361003D5BB7 /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
-		F5DB35061637F361003D5BB7 /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
-		F5DB35071637F361003D5BB7 /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
-		F5DB35081637F361003D5BB7 /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
-		F5DB35091637F361003D5BB7 /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
-		F5DB350A1637F361003D5BB7 /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
-		F5DB350B1637F361003D5BB7 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
-		F5DB350C1637F361003D5BB7 /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
-		F5DB350D1637F361003D5BB7 /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
-		F5DB350E1637F361003D5BB7 /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
-		F5DB350F1637F361003D5BB7 /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
-		F5DB35101637F361003D5BB7 /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
-		F5DB35111637F361003D5BB7 /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
-		F5DB35121637F361003D5BB7 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
-		F5DB35131637F361003D5BB7 /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
-		F5DB35141637F361003D5BB7 /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
-		F5DB35151637F361003D5BB7 /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
-		F5DB35161637F361003D5BB7 /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
-		F5DB35171637F361003D5BB7 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
-		F5DB35181637F361003D5BB7 /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
-		F5DB35191637F361003D5BB7 /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
-		F5DB351A1637F361003D5BB7 /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
-		F5DB351B1637F361003D5BB7 /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
-		F5DB351C1637F361003D5BB7 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
-		F5DB351D1637F361003D5BB7 /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
-		F5DB351E1637F361003D5BB7 /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
-		F5DB351F1637F361003D5BB7 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
-		F5DB35201637F361003D5BB7 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
-		F5DB35211637F361003D5BB7 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
 		F5DB35221637F5DA003D5BB7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F5DB35271637FD3D003D5BB7 /* butten_green_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butten_green_pressed.png; sourceTree = "<group>"; };
 		F5DB35281637FD3D003D5BB7 /* button_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_green.png; sourceTree = "<group>"; };
@@ -323,8 +210,6 @@
 				F59213AF163790CC00B0E9F0 /* UIKit.framework in Frameworks */,
 				F59213B1163790CC00B0E9F0 /* Foundation.framework in Frameworks */,
 				F59213B3163790CC00B0E9F0 /* CoreGraphics.framework in Frameworks */,
-				F5DB34C61637F34F003D5BB7 /* libappcenter.a in Frameworks */,
-				F5DB34C71637F34F003D5BB7 /* libcrypto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,33 +226,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F568C7151639557E00619E9A /* appcenter */ = {
-			isa = PBXGroup;
-			children = (
-				F568C7161639557E00619E9A /* appcenter.h */,
-				F568C7171639557E00619E9A /* applicationdef.h */,
-				F568C7181639557E00619E9A /* clientplatform.h */,
-				F568C7191639557E00619E9A /* companydef.h */,
-				F568C71A1639557E00619E9A /* easypacket.h */,
-				F568C71B1639557E00619E9A /* filetype.h */,
-				F568C71C1639557E00619E9A /* languagedef.h */,
-				F568C71D1639557E00619E9A /* mersenne.h */,
-				F568C71E1639557E00619E9A /* mychallenge.h */,
-				F568C71F1639557E00619E9A /* mychallengekey.h */,
-				F568C7201639557E00619E9A /* myencryptor.h */,
-				F568C7211639557E00619E9A /* mykeymanager.h */,
-				F568C7221639557E00619E9A /* mylog.h */,
-				F568C7231639557E00619E9A /* myrandom.h */,
-				F568C7241639557E00619E9A /* packethandler.h */,
-				F568C7251639557E00619E9A /* sdstatus.h */,
-			);
-			path = appcenter;
-			sourceTree = "<group>";
-		};
 		F592139F163790CC00B0E9F0 = {
 			isa = PBXGroup;
 			children = (
-				F5DB34C31637F34F003D5BB7 /* lib */,
 				F59213B4163790CC00B0E9F0 /* Doodle */,
 				F59213D8163790CC00B0E9F0 /* DoodleTests */,
 				F59213AD163790CC00B0E9F0 /* Frameworks */,
@@ -402,9 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				F59556091638C8DA008CA796 /* appdelegate */,
-				F59556051638C890008CA796 /* net */,
 				F59556071638C8A1008CA796 /* imagelib */,
-				F59556081638C8C9008CA796 /* recommand */,
 				F5DB343F1637E2B9003D5BB7 /* publicDefine.h */,
 				F595560A1638C8F1008CA796 /* image and imageview */,
 				F595560B1638C8FF008CA796 /* main view */,
@@ -454,24 +313,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F59556051638C890008CA796 /* net */ = {
-			isa = PBXGroup;
-			children = (
-				F5DB345C1637EF7B003D5BB7 /* BasisZipAndUnzip.h */,
-				F5DB345D1637EF7B003D5BB7 /* BasisZipAndUnzip.m */,
-				F5DB345E1637EF7C003D5BB7 /* structandenumForProtrol.h */,
-				F5DB34561637EEFE003D5BB7 /* AsyncSocket.h */,
-				F5DB34571637EEFF003D5BB7 /* AsyncSocket.m */,
-				F5DB34501637EEDA003D5BB7 /* RJFAppDownload.h */,
-				F5DB34511637EEDA003D5BB7 /* RJFAppDownload.mm */,
-				F5DB34521637EEDB003D5BB7 /* RjfDownPicImageView.h */,
-				F5DB34531637EEDB003D5BB7 /* RjfDownPicImageView.m */,
-				F5DB34591637EF2F003D5BB7 /* RJFUpAndDown.h */,
-				F5DB345A1637EF30003D5BB7 /* RJFUpAndDown.m */,
-			);
-			name = net;
-			sourceTree = "<group>";
-		};
 		F59556071638C8A1008CA796 /* imagelib */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,16 +321,6 @@
 				F5DB34421637E979003D5BB7 /* RJFDraftTbControlViewController.xib */,
 			);
 			name = imagelib;
-			sourceTree = "<group>";
-		};
-		F59556081638C8C9008CA796 /* recommand */ = {
-			isa = PBXGroup;
-			children = (
-				F5DB344B1637EEA7003D5BB7 /* RJFRecommandViewController.h */,
-				F5DB344C1637EEA7003D5BB7 /* RJFRecommandViewController.mm */,
-				F5DB344D1637EEA7003D5BB7 /* RJFRecommandViewController.xib */,
-			);
-			name = recommand;
 			sourceTree = "<group>";
 		};
 		F59556091638C8DA008CA796 /* appdelegate */ = {
@@ -607,96 +438,6 @@
 			name = icon;
 			sourceTree = "<group>";
 		};
-		F5DB34C31637F34F003D5BB7 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				F568C7151639557E00619E9A /* appcenter */,
-				F5DB34D91637F361003D5BB7 /* openssl */,
-				F5DB34C41637F34F003D5BB7 /* libappcenter.a */,
-				F5DB34C51637F34F003D5BB7 /* libcrypto.a */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		F5DB34D91637F361003D5BB7 /* openssl */ = {
-			isa = PBXGroup;
-			children = (
-				F5DB34DA1637F361003D5BB7 /* aes.h */,
-				F5DB34DB1637F361003D5BB7 /* asn1.h */,
-				F5DB34DC1637F361003D5BB7 /* asn1_mac.h */,
-				F5DB34DD1637F361003D5BB7 /* asn1t.h */,
-				F5DB34DE1637F361003D5BB7 /* bio.h */,
-				F5DB34DF1637F361003D5BB7 /* blowfish.h */,
-				F5DB34E01637F361003D5BB7 /* bn.h */,
-				F5DB34E11637F361003D5BB7 /* buffer.h */,
-				F5DB34E21637F361003D5BB7 /* camellia.h */,
-				F5DB34E31637F361003D5BB7 /* cast.h */,
-				F5DB34E41637F361003D5BB7 /* cms.h */,
-				F5DB34E51637F361003D5BB7 /* comp.h */,
-				F5DB34E61637F361003D5BB7 /* conf.h */,
-				F5DB34E71637F361003D5BB7 /* conf_api.h */,
-				F5DB34E81637F361003D5BB7 /* crypto.h */,
-				F5DB34E91637F361003D5BB7 /* des.h */,
-				F5DB34EA1637F361003D5BB7 /* des_old.h */,
-				F5DB34EB1637F361003D5BB7 /* dh.h */,
-				F5DB34EC1637F361003D5BB7 /* dsa.h */,
-				F5DB34ED1637F361003D5BB7 /* dso.h */,
-				F5DB34EE1637F361003D5BB7 /* dtls1.h */,
-				F5DB34EF1637F361003D5BB7 /* e_os2.h */,
-				F5DB34F01637F361003D5BB7 /* ebcdic.h */,
-				F5DB34F11637F361003D5BB7 /* ec.h */,
-				F5DB34F21637F361003D5BB7 /* ecdh.h */,
-				F5DB34F31637F361003D5BB7 /* ecdsa.h */,
-				F5DB34F41637F361003D5BB7 /* engine.h */,
-				F5DB34F51637F361003D5BB7 /* err.h */,
-				F5DB34F61637F361003D5BB7 /* evp.h */,
-				F5DB34F71637F361003D5BB7 /* hmac.h */,
-				F5DB34F81637F361003D5BB7 /* idea.h */,
-				F5DB34F91637F361003D5BB7 /* krb5_asn.h */,
-				F5DB34FA1637F361003D5BB7 /* kssl.h */,
-				F5DB34FB1637F361003D5BB7 /* lhash.h */,
-				F5DB34FC1637F361003D5BB7 /* md4.h */,
-				F5DB34FD1637F361003D5BB7 /* md5.h */,
-				F5DB34FE1637F361003D5BB7 /* mdc2.h */,
-				F5DB34FF1637F361003D5BB7 /* modes.h */,
-				F5DB35001637F361003D5BB7 /* obj_mac.h */,
-				F5DB35011637F361003D5BB7 /* objects.h */,
-				F5DB35021637F361003D5BB7 /* ocsp.h */,
-				F5DB35031637F361003D5BB7 /* opensslconf.h */,
-				F5DB35041637F361003D5BB7 /* opensslv.h */,
-				F5DB35051637F361003D5BB7 /* ossl_typ.h */,
-				F5DB35061637F361003D5BB7 /* pem.h */,
-				F5DB35071637F361003D5BB7 /* pem2.h */,
-				F5DB35081637F361003D5BB7 /* pkcs12.h */,
-				F5DB35091637F361003D5BB7 /* pkcs7.h */,
-				F5DB350A1637F361003D5BB7 /* pqueue.h */,
-				F5DB350B1637F361003D5BB7 /* rand.h */,
-				F5DB350C1637F361003D5BB7 /* rc2.h */,
-				F5DB350D1637F361003D5BB7 /* rc4.h */,
-				F5DB350E1637F361003D5BB7 /* ripemd.h */,
-				F5DB350F1637F361003D5BB7 /* rsa.h */,
-				F5DB35101637F361003D5BB7 /* safestack.h */,
-				F5DB35111637F361003D5BB7 /* seed.h */,
-				F5DB35121637F361003D5BB7 /* sha.h */,
-				F5DB35131637F361003D5BB7 /* ssl.h */,
-				F5DB35141637F361003D5BB7 /* ssl2.h */,
-				F5DB35151637F361003D5BB7 /* ssl23.h */,
-				F5DB35161637F361003D5BB7 /* ssl3.h */,
-				F5DB35171637F361003D5BB7 /* stack.h */,
-				F5DB35181637F361003D5BB7 /* symhacks.h */,
-				F5DB35191637F361003D5BB7 /* tls1.h */,
-				F5DB351A1637F361003D5BB7 /* ts.h */,
-				F5DB351B1637F361003D5BB7 /* txt_db.h */,
-				F5DB351C1637F361003D5BB7 /* ui.h */,
-				F5DB351D1637F361003D5BB7 /* ui_compat.h */,
-				F5DB351E1637F361003D5BB7 /* whrlpool.h */,
-				F5DB351F1637F361003D5BB7 /* x509.h */,
-				F5DB35201637F361003D5BB7 /* x509_vfy.h */,
-				F5DB35211637F361003D5BB7 /* x509v3.h */,
-			);
-			path = openssl;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -745,6 +486,11 @@
 				CLASSPREFIX = RJF;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "com.o-popo";
+				TargetAttributes = {
+					F59213A9163790CC00B0E9F0 = {
+						DevelopmentTeam = 5TR28FWHKP;
+					};
+				};
 			};
 			buildConfigurationList = F59213A4163790CC00B0E9F0 /* Build configuration list for PBXProject "Doodle" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -820,7 +566,6 @@
 				F5DB34391637E0BD003D5BB7 /* normal.png in Resources */,
 				F5DB34441637E979003D5BB7 /* RJFDraftTbControlViewController.xib in Resources */,
 				F5DB344A1637EE29003D5BB7 /* rubbsh.png in Resources */,
-				F5DB344F1637EEA8003D5BB7 /* RJFRecommandViewController.xib in Resources */,
 				F5DB35291637FD3E003D5BB7 /* butten_green_pressed.png in Resources */,
 				F5DB352A1637FD3E003D5BB7 /* button_green.png in Resources */,
 				F5DB352C1638040F003D5BB7 /* shade.png in Resources */,
@@ -876,12 +621,6 @@
 				F5DB34341637DD96003D5BB7 /* SingImageTouch.m in Sources */,
 				F5DB34351637DD96003D5BB7 /* UIImge-GetSubImage.m in Sources */,
 				F5DB34431637E979003D5BB7 /* RJFDraftTbControlViewController.m in Sources */,
-				F5DB344E1637EEA8003D5BB7 /* RJFRecommandViewController.mm in Sources */,
-				F5DB34541637EEDB003D5BB7 /* RJFAppDownload.mm in Sources */,
-				F5DB34551637EEDB003D5BB7 /* RjfDownPicImageView.m in Sources */,
-				F5DB34581637EEFF003D5BB7 /* AsyncSocket.m in Sources */,
-				F5DB345B1637EF30003D5BB7 /* RJFUpAndDown.m in Sources */,
-				F5DB345F1637EF7C003D5BB7 /* BasisZipAndUnzip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -985,8 +724,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Developer: ran jingfu (7ZGYNQ48BP)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ran jingfu (7ZGYNQ48BP)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Doodle/Doodle-Prefix.pch";
@@ -1013,8 +752,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai YuYou Network Technology CO.,LTD";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai YuYou Network Technology CO.,LTD";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Doodle/Doodle-Prefix.pch";
@@ -1031,7 +770,7 @@
 					"\"$(SRCROOT)\"/lib/openssl",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8CAD7762-C5D3-453B-98F3-1E1B6302C240";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8CAD7762-C5D3-453B-98F3-1E1B6302C240";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

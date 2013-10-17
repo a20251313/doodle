@@ -9,7 +9,7 @@
 #import "RJFViewController.h"
 #import "UIImge-GetSubImage.h"
 #import "RJFDraftTbControlViewController.h"
-#import "RJFRecommandViewController.h"
+
 
 #define RECT
 
@@ -66,8 +66,7 @@
 
 -(IBAction)ClickAppRecommand:(UIButton *)sender
 {
-    RJFRecommandViewController  *control = [[[RJFRecommandViewController alloc] initWithNibName:@"RJFRecommandViewController" bundle:nil] autorelease];
-    [self.navigationController pushViewController:control animated:YES];
+
 }
 
 -(IBAction)ClickShowView:(UIButton *)sender
