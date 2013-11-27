@@ -263,32 +263,32 @@
 {
 
 }
--(CGColorRef)getSegmentColor:(int)segment
+-(CGColorRef)getSegmentColor:(JFsegmentColorType)segment
 {
     CGColorRef color = [[UIColor blackColor] CGColor];
 	
 	switch (segment)
 	{
-		case 1:
+		case JFsegmentColorTypeblackColor:
 			color=[[UIColor blackColor] CGColor];
 			break;
-        case 0:
-		case 2:
+        case JFsegmentColorTypeDefultColor:
+		case JFsegmentColorTypewhiteColor:
 			color=[[UIColor whiteColor] CGColor];
 			break;
-		case 3:
+		case JFsegmentColorTypeblueColor:
 			color=[[UIColor blueColor] CGColor];
 			break;
-		case 4:
+		case JFsegmentColorTypeyellowColor:
 			color=[[UIColor yellowColor] CGColor];
 			break;
-		case 5:
+		case JFsegmentColorTypeorangeColor:
 			color=[[UIColor orangeColor] CGColor];
 			break;
-		case 6:
+		case JFsegmentColorTyperedColor:
 			color=[[UIColor redColor] CGColor];
 			break;
-		case 7:
+		case JFsegmentColorTypepurpleColor:
 			color=[[UIColor purpleColor] CGColor];
 			break;
         

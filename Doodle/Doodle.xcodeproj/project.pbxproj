@@ -488,7 +488,7 @@
 				ORGANIZATIONNAME = "com.o-popo";
 				TargetAttributes = {
 					F59213A9163790CC00B0E9F0 = {
-						DevelopmentTeam = 5TR28FWHKP;
+						DevelopmentTeam = PT9HK7TJ84;
 					};
 				};
 			};

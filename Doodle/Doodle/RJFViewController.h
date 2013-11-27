@@ -17,6 +17,20 @@ typedef enum
 }ButtonPressedType;
 
 
+
+typedef enum
+{
+    JFsegmentColorTypeDefultColor = 0,  //default is white color
+    JFsegmentColorTypeblackColor = 1,
+    JFsegmentColorTypewhiteColor = 2,
+    JFsegmentColorTypeblueColor = 3,
+    JFsegmentColorTypeyellowColor = 4,
+    JFsegmentColorTypeorangeColor = 5,
+    JFsegmentColorTyperedColor = 6,
+    JFsegmentColorTypepurpleColor = 7,
+    
+}JFsegmentColorType;
+
 @interface RJFViewController : UIViewController<BNRREFRESHDELEGATE>
 {
     IBOutlet   RJFViewForchoose    *viweForChoose;
@@ -37,7 +51,7 @@ typedef enum
     
 	BOOL canErase;
     BOOL firstErase;
-    int segmentColor;
+    JFsegmentColorType segmentColor;
 	int segmentWidth;
 	int eraseWidth;
     int m_actionNumber;
